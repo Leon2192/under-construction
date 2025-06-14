@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estudio de Arquitectura</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        font-family: 'Outfit', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+        text-align: center;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      img.icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+        opacity: 0.9;
+        filter: drop-shadow(0 0 4px #000000aa);
+      }
+
+      h1 {
+        font-size: 2.8rem;
+        margin-bottom: 15px;
+        background: linear-gradient(90deg, #ffffff, #f7c6d9, #cba0ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+
+      p {
+        font-size: 1.3rem;
+        color: #bbbbbb;
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 2rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+
+        img.icon {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/609/609803.png" alt="Icono en construcción" />
+      <h1>Sitio en construcción</h1>
+      <p>Estamos creando una experiencia única. Volvé pronto.</p>
+    </div>
+  </body>
+</html>
